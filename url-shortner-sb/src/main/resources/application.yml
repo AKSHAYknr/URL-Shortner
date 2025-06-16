@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: url-shortner-sb
+  datasource:
+    url: jdbc:mysql://localhost:3306/urlshortnerdb
+    username: root
+    password: Akshay@123ps
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
